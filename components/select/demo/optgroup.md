@@ -24,12 +24,12 @@ function handleChange(value) {
 
 ReactDOM.render(
   <Select defaultValue="lucy" style={{ width: 200 }} onChange={handleChange}>
-    <OptGroup label="Manager">
-      <Option value="jack">Jack</Option>
-      <Option value="lucy">Lucy</Option>
+    <OptGroup label="常用">
+      <Option value="军事">Jack</Option>
+      <Option value="体育">Lucy</Option>
     </OptGroup>
-    <OptGroup label="Engineer">
-      <Option value="Yiminghe">yiminghe</Option>
+    <OptGroup label="全面分类">
+      <Option value="国际">yiminghe</Option>
     </OptGroup>
   </Select>,
   mountNode,
